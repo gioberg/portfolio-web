@@ -1,204 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Desenvolvedor Web</title>
     <!-- Fonte moderna do Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Ícones (FontAwesome) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- NAVEGAÇÃO -->
     <header class="navbar">
-        <div class="container nav-content">
-            <a href="#" class="logo">
-                <span class="logo-icon">S</span> SEU NOME
-            </a>
-            <nav class="nav-links" id="navLinks">
-                <a href="#home">Início</a>
-                <a href="#sobre">Sobre Mim</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#servicos">Serviços</a>
-            </nav>
-            <a href="https://wa.me/5500000000000" target="_blank" class="btn-primary">CONTATO</a>
-            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
-        </div>
+      <div class="container nav-content">
+        <a href="#home" class="logo" aria-label="Página inicial">
+          <img src="imgs/logo.png" alt="Logo" />
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Início</a>
+          <a href="#sobre">Sobre Mim</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#servicos">Serviços</a>
+        </nav>
+        <a
+          href="https://wa.me/5551994203103?text=Quero%20um%20site%20pr%C3%B3prio"
+          target="_blank"
+          class="btn-primary"
+          >CONTATO</a
+        >
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
     </header>
 
     <!-- SEÇÃO HERO (TOPO) -->
     <section id="home" class="hero">
-        <div class="container hero-grid">
-            <div class="hero-text">
-                <span class="badge">GIOVANNI BERGAMASCHI</span>
-                <h1>OLÁ! EU ME CHAMO<br></h1>
-                <h1 class="main-title">GIOVANNI</h1>
-                <h2>E SOU</h2>
-                <h1 class="web-animated">
-                    <span class="highlight">DESENVOLVEDOR</span>
-                    <span class="web">WEB</span>
-                </h1>
-                <p>Crio sites rápidos, modernos e adaptados para celulares que ajudam empresas locais a atrair mais clientes e vender todos os dias.</p>
-                <div class="hero-actions">
-                    <a href="https://wa.me/5500000000000" target="_blank" class="btn-primary">
-                        ENTRAR EM CONTATO <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <div class="social-icons">
-                        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="badge">INICIO</span>
+          <h1>OLÁ, EU ME CHAMO</h1>
+          <div class="hero-name-line">
+            <h1 class="main-title">GIOVANNI</h1>
+            <h2 class="name-caption">E SOU</h2>
+          </div>
+          <h1 class="web-animated">
+            <span class="highlight">DESENVOLVEDOR</span>
+            <span class="web">WEB</span>
+          </h1>
+          <p>
+            Crio sites rápidos, modernos e adaptados para celulares que ajudam
+            empresas locais a atrair mais clientes e vender todos os dias.
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://wa.me/5551994203103?text=Quero%20um%20site%20pr%C3%B3prio"
+              target="_blank"
+              class="btn-primary"
+            >
+              ENTRAR EM CONTATO <i class="fas fa-arrow-right"></i>
+            </a>
+            <div class="social-icons">
+              <a
+                href="https://wa.me/5551994203103?text=Quero%20um%20site%20pr%C3%B3prio"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://www.instagram.com/giooberg/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://github.com/gioberg" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
             </div>
-
-            <div class="hero-image-wrapper">
-                <!-- Círculo decorativo de linhas ao fundo -->
-                <div class="circle-lines"></div>
-                <div class="floating-orb orb-1"></div>
-                <div class="floating-orb orb-2"></div>
-                <!-- Substitua o src pela sua foto sem fundo (use remove.bg) -->
-                <img src="https://via.placeholder.com/420x480/0b192c/ffffff?text=Sua+Foto+Aqui" alt="Sua Foto" class="hero-img">
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FAIXA DE TECNOLOGIAS / HABILIDADES -->
     <div class="tech-banner">
-        <div class="container tech-list">
-            <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
-            <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
-            <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
-            <div class="tech-item"><i class="fas fa-mobile-alt"></i> Design Responsivo</div>
-            <div class="tech-item"><i class="fab fa-google"></i> Google Meu Negócio</div>
+      <div class="container tech-list">
+        <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="tech-item">
+          <i class="fas fa-mobile-alt"></i> Design Responsivo
         </div>
+        <div class="tech-item">
+          <i class="fab fa-google"></i> Google Meu Negócio
+        </div>
+      </div>
     </div>
 
     <!-- SEÇÃO SOBRE MIM -->
     <section id="sobre" class="about">
-        <div class="container about-grid">
-            <div class="about-image-box">
-                <div class="ring-decoration"></div>
-                <!-- Substitua por outra foto sua -->
-                <img src="https://via.placeholder.com/380x440/162b46/ffffff?text=Foto+Sobre+Voce" alt="Sobre Mim">
-            </div>
-
-            <div class="about-text">
-                <span class="badge">SOBRE MIM</span>
-                <h2>ESTOU DISPONÍVEL PARA <span class="highlight">CRIAR O SITE</span> DO SEU NEGÓCIO</h2>
-                <p>Muitas empresas locais perdem clientes todos os dias por não terem uma presença profissional na internet ou por terem sites lentos e difíceis de usar no celular.</p>
-                <p>Meu foco é resolver isso de forma rápida e sem complicação: entrego páginas prontas para converter visitantes em mensagens no seu WhatsApp.</p>
-
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <h3>100%</h3>
-                        <p>Adaptado para Celular</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>24/7</h3>
-                        <p>Empresa Online</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Rápido</h3>
-                        <p>Carregamento Leve</p>
-                    </div>
-                </div>
-
-                <a href="https://wa.me/5500000000000" target="_blank" class="btn-primary">
-                    SOLICITAR ORÇAMENTO <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
+      <div class="container about-grid">
+        <div class="about-image-box">
+          <div class="ring-decoration"></div>
+          <!-- Substitua por outra foto sua -->
+          <img
+            src="https://via.placeholder.com/380x440/162b46/ffffff?text=Foto+Sobre+Voce"
+            alt="Sobre Mim"
+          />
         </div>
+
+        <div class="about-text">
+          <span class="badge">SOBRE MIM</span>
+          <h2>
+            ESTOU DISPONÍVEL PARA <span class="highlight">CRIAR O SITE</span> DO
+            SEU NEGÓCIO
+          </h2>
+          <p>
+            Muitas empresas locais perdem clientes todos os dias por não terem
+            uma presença profissional na internet ou por terem sites lentos e
+            difíceis de usar no celular.
+          </p>
+          <p>
+            Meu foco é resolver isso de forma rápida e sem complicação: entrego
+            páginas prontas para converter visitantes em mensagens no seu
+            WhatsApp.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>100%</h3>
+              <p>Adaptado para Celular</p>
+            </div>
+            <div class="stat-card">
+              <h3>24/7</h3>
+              <p>Empresa Online</p>
+            </div>
+            <div class="stat-card">
+              <h3>Rápido</h3>
+              <p>Carregamento Leve</p>
+            </div>
+          </div>
+
+          <a
+            href="https://wa.me/5551994203103?text=Quero%20um%20site%20pr%C3%B3prio"
+            target="_blank"
+            class="btn-primary"
+          >
+            SOLICITAR ORÇAMENTO <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- SEÇÃO PROJETOS RECENTES -->
     <section id="projetos" class="projects">
-        <div class="container">
-            <span class="badge">MEU TRABALHO</span>
-            <h2>PROJETOS RECENTES</h2>
+      <div class="container">
+        <span class="badge">MEU TRABALHO</span>
+        <h2>PROJETOS RECENTES</h2>
 
-            <div class="projects-grid">
-                <!-- PROJETO 1 (O RESTAURANTE DO HOTEL) -->
-                <div class="project-card">
-                    <div class="project-thumb">
-                        <img src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Restaurante" alt="Site Restaurante">
-                    </div>
-                    <div class="project-info">
-                        <div>
-                            <h3>Restaurante & Hotel</h3>
-                            <p>Cardápio Digital, Reserva e Idiomas</p>
-                        </div>
-                        <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- PROJETO 2 -->
-                <div class="project-card">
-                    <div class="project-thumb">
-                        <img src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Clinica" alt="Site Clínica">
-                    </div>
-                    <div class="project-info">
-                        <div>
-                            <h3>Clínica Odontológica</h3>
-                            <p>Landing Page de Agendamento</p>
-                        </div>
-                        <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- PROJETO 3 -->
-                <div class="project-card">
-                    <div class="project-thumb">
-                        <img src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Escritorio" alt="Site Escritório">
-                    </div>
-                    <div class="project-info">
-                        <div>
-                            <h3>Escritório de Advocacia</h3>
-                            <p>Site Institucional & Autoridade</p>
-                        </div>
-                        <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
+        <div class="projects-grid">
+          <!-- PROJETO 1 (O RESTAURANTE DO HOTEL) -->
+          <div class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Restaurante"
+                alt="Site Restaurante"
+              />
             </div>
+            <div class="project-info">
+              <div>
+                <h3>Restaurante & Hotel</h3>
+                <p>Cardápio Digital, Reserva e Idiomas</p>
+              </div>
+              <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"
+                ><i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- PROJETO 2 -->
+          <div class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Clinica"
+                alt="Site Clínica"
+              />
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Clínica Odontológica</h3>
+                <p>Landing Page de Agendamento</p>
+              </div>
+              <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"
+                ><i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- PROJETO 3 -->
+          <div class="project-card">
+            <div class="project-thumb">
+              <img
+                src="https://via.placeholder.com/400x260/1e293b/ffffff?text=Preview+Escritorio"
+                alt="Site Escritório"
+              />
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Escritório de Advocacia</h3>
+                <p>Site Institucional & Autoridade</p>
+              </div>
+              <a href="#" target="_blank" class="btn-circle" title="Ver Projeto"
+                ><i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SEÇÃO SERVIÇOS -->
     <section id="servicos" class="services">
-        <div class="container">
-            <span class="badge">SERVIÇOS</span>
-            <h2>SOLUÇÕES QUE <span class="highlight">OFEREÇO</span></h2>
+      <div class="container">
+        <span class="badge">SERVIÇOS</span>
+        <h2>SOLUÇÕES QUE <span class="highlight">OFEREÇO</span></h2>
 
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-laptop-code service-icon"></i>
-                    <h3>Criação de Landing Pages</h3>
-                    <p>Páginas únicas focadas em apresentar seus serviços e levar o cliente direto para o seu WhatsApp.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-utensils service-icon"></i>
-                    <h3>Cardápios e Catálogos</h3>
-                    <p>Soluções visuais e rápidas para restaurantes e lojas, com opção de tradução para turistas.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-wrench service-icon"></i>
-                    <h3>Modernização de Sites</h3>
-                    <p>Transformo sites antigos e quebrados em páginas modernas, seguras e compatíveis com celulares.</p>
-                </div>
-            </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h3>Criação de Landing Pages</h3>
+            <p>
+              Páginas únicas focadas em apresentar seus serviços e levar o
+              cliente direto para o seu WhatsApp.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-utensils service-icon"></i>
+            <h3>Cardápios e Catálogos</h3>
+            <p>
+              Soluções visuais e rápidas para restaurantes e lojas, com opção de
+              tradução para turistas.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-wrench service-icon"></i>
+            <h3>Modernização de Sites</h3>
+            <p>
+              Transformo sites antigos em páginas modernas, seguras e adaptaveis
+              a qualquer tela ou dispositivo.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- RODAPÉ -->
     <footer class="footer">
-        <div class="container footer-content">
-            <p>&copy; 2026 [Seu Nome]. Todos os direitos reservados.</p>
-            <a href="https://wa.me/5500000000000" target="_blank" class="highlight">Falar no WhatsApp</a>
-        </div>
+      <div class="container footer-content">
+        <p>
+          &copy; 2026 Giovanni Schirrmann Bergamaschi. Todos os direitos
+          reservados.
+        </p>
+        <a
+          href="https://wa.me/5551994203103?text=Quero%20um%20site%20pr%C3%B3prio"
+          target="_blank"
+          class="highlight"
+          >Falar no WhatsApp</a
+        >
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
